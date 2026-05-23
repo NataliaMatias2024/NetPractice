@@ -7,44 +7,44 @@
 
 _This project has been created as part of the 42 curriculum by namatias._
 
-Este repositório contém as configurações resolvidas para o projeto NetPractice, desenvolvido como parte do currículo da [42 São Paulo](https://www.42sp.org.br/).
+This repository contains the solved configurations for the NetPractice project, developed as part of the curriculum at [42 São Paulo](https://www.42sp.org.br/).
 
 ## 🚀 Description
 
-O **NetPractice** é um projeto prático focado nos fundamentos de redes de computadores. 
-O objetivo é entender como funciona o endereçamento IP, mascaramento de sub-redes e o roteamento de pacotes através de uma interface web de treinamento, solucionando problemas de conectividade em redes de pequena escala.
+**NetPractice** is a practical project focused on the fundamentals of computer networking. 
+The objective is to understand the inner workings of IP addressing, subnet masking, and packet routing through a web-based training interface, solving connectivity issues in small-scale networks.
 
 ## 🛠️ Instructions
-### 1. Executando a Interface de Treino
-1. Baixe os arquivos do projeto na página oficial da Intranet da 42.
-2. Extraia os arquivos em um diretório de sua preferência.
-3. Abra o arquivo `index.html` diretamente em seu navegador para carregar o ambiente gráfico.
-4. Insira o seu login da intranet (ex: `namatias`) na aba **Training** e clique em **Start!** para iniciar.
-5. Utilize o botão **[Check again]** para validar as alterações realizadas.
 
-### 2. Exportando as Configurações
-* Para cada um dos **10 níveis** resolvidos com sucesso, utilize o botão **[Get my config]** disponível no topo da interface.
-* O botão gerará o download do arquivo de configuração correspondente àquele nível.
+### 1. Running the Training Interface
+1. Download the project files from the official page on the 42 Intranet.
+2. Extract the files into a directory of your choice.
+3. Open the `index.html` file directly in your web browser to load the graphical environment.
+4. Enter your intranet login (e.g., `namatias`) in the **Training** tab and click **Start!** to begin.
+5. Use the **[Check again]** button to validate the modifications you made.
 
-### 3. Requisitos de Submissão
-* Os **10 arquivos de configuração exportados** (um para cada nível) devem ser colocados obrigatoriamente na **raiz (root)** do repositório Git para a avaliação.
-* Certifique-se de que os arquivos foram exportados com o seu login inserido corretamente na plataforma.
+### 2. Exporting Configurations
+* For each of the **10 levels** solved successfully, click the **[Get my config]** button available at the top of the interface.
+* This button will download the configuration file corresponding to that specific level.
 
+### 3. Submission Requirements
+* The **10 exported configuration files** (one per level) must be placed directly at the **root** of the Git repository for evaluation.
+* Make sure that all files were exported with your login correctly entered into the platform.
 
-## 🧠 Conceitos-Chave
+## 🧠 Key Concepts
 
 ### 🌐 TCP/IP Addressing & Subnet Masks
-* **IP Address:** Identificador único de cada dispositivo dentro de uma rede. No IPv4, é dividido entre a porção de rede e a porção de host.
-* **Subnet Mask:** Define os limites e o tamanho de uma rede. Determina quais IPs pertencem ao mesmo escopo local e conseguem se comunicar diretamente, mapeando a máscara tanto em formato decimal (ex: `255.255.255.0`) quanto em notação CIDR (ex: `/24`).
-* **Reserved Addresses:** Toda sub-rede possui dois endereços reservados que não podem ser atribuídos a nenhum host: o *Network Address* (primeiro IP da faixa, representando a rede) e o *Broadcast Address* (último IP da faixa, usado para comunicação com todos os hosts daquela rede).
+* **IP Address:** A unique identifier for each device within a network. In IPv4, it is split into the network portion and the host portion.
+* **Subnet Mask:** Defines the boundaries and the size of a network. It determines which IPs belong to the same local scope and can communicate directly, mapping the mask both in decimal format (e.g., `255.255.255.0`) and CIDR notation (e.g., `/24`).
+* **Reserved Addresses:** Every subnet has two reserved addresses that cannot be assigned to any host: the *Network Address* (the first IP in the range, representing the network itself) and the *Broadcast Address* (the last IP in the range, used to broadcast packets to all hosts on that network).
 
 ### 📡 Routing & Default Gateway
-* **Default Gateway:** O endereço da interface do roteador que serve como porta de saída para os hosts locais enviarem pacotes para fora de sua sub-rede.
-* **Routing Tables:** Tabelas de decisão utilizadas pelos roteadores. O roteador analisa o IP de destino do pacote e encontra a rota mais específica para encaminhá-lo. Caso não haja correspondência exata, utiliza a rota padrão (`0.0.0.0/0`).
+* **Default Gateway:** The IP address of the router interface that serves as an exit point for local hosts to send packets outside their own subnet.
+* **Routing Tables:** Decision tables utilized by routers. The router analyzes the destination IP of a packet and finds the most specific matching route to forward it. If no exact match is found, it uses the default route (`0.0.0.0/0`).
 
 ### 🗺️ Network Devices
-* **Routers:** Equipamentos responsáveis por interconectar redes diferentes e encaminhar pacotes entre elas através de tabelas de roteamento.
-* **Switches:** Dispositivos que conectam hosts dentro de uma mesma rede local, distribuindo o tráfego internamente.
+* **Routers:** Equipment responsible for interconnecting different networks and forwarding packets between them using routing tables.
+* **Switches:** Devices that connect hosts within the same local network, distributing data traffic internally.
 
 ## 📚 Resources
 - [Playlist YouTube - Subnetting Mastery](https://youtube.com/playlist?list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE&si=fAibshMaaLJgvs5O)
@@ -52,10 +52,9 @@ O objetivo é entender como funciona o endereçamento IP, mascaramento de sub-re
 - [Wikipedia - IPv4](https://pt.wikipedia.org/wiki/IPv4)
 
 ## 🤖 Artificial Intelligence (AI) Usage Statement
-Em conformidade com as diretrizes do projeto, ferramentas de Inteligência Artificial foram utilizadas durante o desenvolvimento com foco exclusivo em otimização de fluxo de trabalho e validação conceitual:
-* **Tasks Executed:** A IA foi aplicada como suporte de produtividade para estruturar e revisar a formatação Markdown e a gramática deste arquivo de documentação.
-* **Validation Rigor:** Nenhuma configuração de rede ou solução de nível foi gerada ou copiada de ferramentas automatizadas. Todas as lógicas de sub-redes e rotas foram analisadas e calculadas de forma estritamente autoral.
-
+In compliance with the project guidelines, Artificial Intelligence tools were utilized during development with an exclusive focus on workflow optimization and conceptual validation:
+* **Tasks Executed:** AI was applied as a productivity asset to structure and review the Markdown formatting and the grammar of this documentation file.
+* **Validation Rigor:** No network configurations or level solutions were generated or copied from automated tools. All subnetting and routing logic was analyzed, calculated, and implemented in a strictly autoral manner.
 
 ## 💻 Hard Skills
 `Networking` • `TCP/IP` • `Subnet Masking` • `IP Routing` • `Systems Infrastructure`
