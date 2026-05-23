@@ -46,6 +46,11 @@ The objective is to understand the inner workings of IP addressing, subnet maski
 * **Routers:** Equipment responsible for interconnecting different networks and forwarding packets between them using routing tables.
 * **Switches:** Devices that connect hosts within the same local network, distributing data traffic internally.
 
+### 🗂️ OSI Layers (Networking Context)
+While NetPractice focuses on practical IP configuration, it builds on a simplified understanding of the **OSI (Open Systems Interconnection) Model**, focusing heavily on:
+* **Layer 2 - Data Link Layer:** Where **Switches** operate. It handles local data transfer within the same network segment, using MAC addresses to ensure packets reach the correct physical host.
+* **Layer 3 - Network Layer:** Where **Routers**, **IP Addressing**, and **Subnetting** take place. It is responsible for logical addressing and determining the best path (routing) for packets traveling between completely different networks.
+
 ## 📚 Resources
 - [Playlist YouTube - Subnetting Mastery](https://youtube.com/playlist?list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE&si=fAibshMaaLJgvs5O)
 - [Geeks for Geeks - Role of Subnet Mask](https://www.geeksforgeeks.org/computer-networks/role-of-subnet-mask/)
